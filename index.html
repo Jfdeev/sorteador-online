@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador Online</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="header-text">Sorteador Online</h1>
+        <p class="text-input">Digite a quantidade de numeros sorteados:</p>
+        <input type="number" class="input-number-sorts" id="quantidade">
+        <p>Digite o intervalo de numeros:</p>
+        <span>MIN</span>
+        <input type="number" class="input-number" id="min">
+        <span>MAX</span>
+        <input type="number" class="input-number" id="max">
+        <div class="container-btn">
+            <button class="btn-sorteio" id="sorteio">Sortear</button>
+            <button class="btn-sorteio" id="sorteio-pares">Sortear Pares</button>
+        </div>
+        <div>
+            <p class="text-result">Resultado:</p>
+            <p class="result" id="resultado"></p>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
